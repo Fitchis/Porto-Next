@@ -5,8 +5,8 @@ function Achievement() {
   const achievements = [
     {
       id: 1,
-      title: "Juara 1 Lomba Videography",
-      subtitle: "Transformasi Pendidikan di Era 5.0",
+      title: "1st Place Videography Competition",
+      subtitle: "Transformation of Education in Era 5.0",
       year: "2022",
       icon: "🏆",
       category: "Creative Competition",
@@ -16,12 +16,12 @@ function Achievement() {
       borderColor: "border-yellow-500/30",
       glowColor: "shadow-yellow-500/20",
       description:
-        "Won first place in national videography competition focusing on educational transformation in the digital era.",
+        "Won first place in a national videography competition focusing on educational transformation in the digital era.",
     },
     {
       id: 2,
-      title: "Juara 2 Rektor Cup eSport",
-      subtitle: "Universitas Telkom Surabaya",
+      title: "2nd Place Rector's Cup eSport",
+      subtitle: "Telkom University Surabaya",
       year: "2023",
       icon: "🎮",
       category: "Gaming Tournament",
@@ -31,7 +31,7 @@ function Achievement() {
       borderColor: "border-purple-500/30",
       glowColor: "shadow-purple-500/20",
       description:
-        "Achieved second place in university-level esports tournament representing competitive gaming excellence.",
+        "Achieved second place in a university-level esports tournament representing competitive gaming excellence.",
     },
   ];
 
@@ -65,17 +65,17 @@ function Achievement() {
 
               <h3 className="text-4xl sm:text-6xl lg:text-7xl font-black mb-6">
                 <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
-                  Pencapaian &
+                  Achievements &
                 </span>
                 <br />
                 <span className="bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                  Prestasi
+                  Awards
                 </span>
               </h3>
 
               <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto">
-                Koleksi prestasi dan penghargaan dalam berbagai kompetisi dan
-                turnamen
+                A collection of achievements and awards in various competitions and
+                tournaments
               </p>
             </div>
           </div>

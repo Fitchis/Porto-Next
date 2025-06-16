@@ -75,21 +75,21 @@ export default function About() {
       icon: Code,
       title: "Web Development",
       description:
-        "Modern web applications menggunakan React, Next.js, dan teknologi terkini",
+        "Modern web applications using React, Next.js, and the latest technologies.",
       skills: ["React", "Next.js", "TypeScript", "Node.js"],
     },
     {
       icon: TrendingUp,
       title: "Digital Marketing",
       description:
-        "Strategi pemasaran digital yang efektif untuk meningkatkan brand awareness",
+        "Effective digital marketing strategies to increase brand awareness.",
       skills: ["SEO", "Social Media", "Content Marketing", "Analytics"],
     },
     {
       icon: Database,
       title: "Data Analysis",
       description:
-        "Mengubah data menjadi insights yang actionable untuk business growth",
+        "Transforming data into actionable insights for business growth.",
       skills: ["Python", "SQL", "Excel", "Tableau"],
     },
   ];
@@ -97,20 +97,20 @@ export default function About() {
   const values = [
     {
       icon: Target,
-      title: "Fokus pada Hasil",
+      title: "Results-Oriented",
       description:
-        "Setiap proyek dirancang untuk mencapai tujuan bisnis yang konkret",
+        "Every project is designed to achieve concrete business goals.",
     },
     {
       icon: Zap,
-      title: "Inovasi Berkelanjutan",
+      title: "Continuous Innovation",
       description:
-        "Selalu mengikuti tren teknologi terbaru untuk solusi yang optimal",
+        "Always keeping up with the latest technology trends for optimal solutions.",
     },
     {
       icon: Heart,
       title: "Passion for Quality",
-      description: "Komitmen pada kualitas tinggi dalam setiap aspek pekerjaan",
+      description: "Commitment to high quality in every aspect of work.",
     },
   ];
 
@@ -132,13 +132,13 @@ export default function About() {
 
           <h2 className="text-4xl lg:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-white via-gray-200 to-slate-200 bg-clip-text text-transparent">
-              Tentang Saya
+              About me
             </span>
           </h2>
 
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-            Passionate digital creator yang berdedikasi untuk menciptakan solusi
-            inovatif melalui teknologi dan strategi digital
+            Passionate digital creator dedicated to creating innovative
+            solutions through technology and digital strategy.
           </p>
         </div>
 
@@ -159,30 +159,30 @@ export default function About() {
               </h3>
 
               <p className="text-gray-300 leading-relaxed mb-6">
-                Mahasiswa semester 8 jurusan{" "}
+                8th semester student majoring in{" "}
                 <span className="text-blue-400 font-semibold">
-                  Bisnis Digital
+                  Digital Business
                 </span>{" "}
-                di Institut Teknologi Telkom Surabaya. Berfokus pada
-                pengembangan solusi digital yang inovatif melalui kombinasi{" "}
+                at Telkom University Surabaya. Focused on developing innovative
+                digital solutions through a combination of{" "}
                 <span className="text-green-400 font-semibold">
-                  teknologi web
+                  web technology
                 </span>
                 ,{" "}
                 <span className="text-purple-400 font-semibold">
                   digital marketing
                 </span>
-                , dan{" "}
+                , and{" "}
                 <span className="text-yellow-400 font-semibold">
-                  analisis data
+                  data analysis
                 </span>
                 .
               </p>
 
               <p className="text-gray-300 leading-relaxed mb-6">
-                Berkomitmen untuk terus berkembang dan berkontribusi dalam
-                transformasi digital. Saya percaya bahwa teknologi adalah alat
-                yang powerful untuk menciptakan dampak positif bagi masyarakat.
+                Committed to continuous growth and contributing to digital
+                transformation. I believe that technology is a powerful tool to
+                create a positive impact on society.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -232,7 +232,9 @@ export default function About() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-400">Major</span>
-                  <span className="text-white font-medium">Bisnis Digital</span>
+                  <span className="text-white font-medium">
+                    Digital Business
+                  </span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-400">Semester</span>
@@ -335,8 +337,7 @@ export default function About() {
               Interested in working together?
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
-              Mari diskusikan bagaimana saya dapat membantu mewujudkan visi
-              digital Anda
+              Let's discuss how I can help realize your digital vision.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

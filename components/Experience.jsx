@@ -9,7 +9,7 @@ function Experience() {
       company: "Badan Pendapatan Daerah Kota Surabaya",
       program: "Kampus Merdeka",
       description:
-        "Mengembangkan aplikasi web untuk meningkatkan efisiensi sistem pendataan dan pelaporan pajak daerah.",
+        "Developed a web application to improve the efficiency of regional tax data collection and reporting systems.",
       tech: ["C#", "JavaScript", "MySQL", "Tailwind CSS", "Bootstrap"],
       type: "Internship",
     },
@@ -19,9 +19,9 @@ function Experience() {
       company: "Infinite Learning",
       program: "Bootcamp",
       description:
-        "Membangun solusi web modern dengan fokus pada user experience dan performance optimization.",
+        "Built modern web solutions with a focus on user experience and performance optimization.",
       tech: ["React", "Tailwind CSS", "Node.js"],
-      type: "Training",
+      type: "Training & internship",
     },
   ];
 

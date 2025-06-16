@@ -1,6 +1,13 @@
 import Link from "next/link";
 import React from "react";
-import { Instagram, Github, Linkedin, Heart, Code } from "lucide-react";
+import {
+  Instagram,
+  Github,
+  Linkedin,
+  Heart,
+  Code,
+  CigaretteIcon,
+} from "lucide-react";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -68,7 +75,7 @@ function Footer() {
 
               <div className="flex items-center space-x-1">
                 <span>Made with</span>
-                <Heart className="w-4 h-4 text-red-500 animate-pulse" />
+                <CigaretteIcon className="w-4 h-4 text-amber-800 animate-pulse" />
                 <span>and lots of coffee</span>
               </div>
             </div>
