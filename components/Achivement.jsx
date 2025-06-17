@@ -51,7 +51,7 @@ function Achievement() {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-orange-500/3 to-pink-500/3 rounded-full blur-3xl animate-pulse delay-2000" />
       </div>
 
-      <section className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className="relative z-10 pt-6 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-20">
           <div className="relative inline-block">
@@ -63,7 +63,7 @@ function Achievement() {
                 </div>
               </div>
 
-              <h3 className="text-4xl sm:text-6xl lg:text-7xl font-black mb-6">
+              <h3 className="text-4xl sm:text-4xl lg:text-5xl font-black mb-6">
                 <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
                   Achievements &
                 </span>
@@ -74,8 +74,8 @@ function Achievement() {
               </h3>
 
               <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto">
-                A collection of achievements and awards in various competitions and
-                tournaments
+                A collection of achievements and awards in various competitions
+                and tournaments
               </p>
             </div>
           </div>

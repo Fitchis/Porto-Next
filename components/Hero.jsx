@@ -102,10 +102,8 @@ function Hero() {
 
             {/* Description */}
             <p className="text-lg text-gray-400 max-w-xl leading-relaxed">
-              Passionate about creating digital experiences that make a
-              difference. I specialize in web development, digital marketing,
-              and data analysis to help businesses grow and succeed in the
-              digital world.
+              A Full-Stack Developer with a strategic mindset shaped by
+              experience in digital marketing and data analysis.
             </p>
 
             {/* Role Tags */}
@@ -199,6 +197,7 @@ function Hero() {
             <div className="absolute z-20 pointer-events-none"></div>
             <Spline
               scene="https://prod.spline.design/iqKEeiqYiQoa30nT/scene.splinecode"
+              // scene="https://prod.spline.design/EX8ThThmhJgw9hH4/scene.splinecode"
               className="w-48 h-48 "
               strokeWidth={2}
             />
