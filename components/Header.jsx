@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import {
   Home,
   User,
@@ -92,12 +92,19 @@ function Header() {
     };
   }, []);
 
+  const router = useRouter();
+
   const scrollToSection = (href) => {
-    const element = document.getElementById(href.substring(1));
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+    if (pathname !== "/") {
+      router.push("/" + href); // Navigates to main page with hash
+      setIsMenuOpen(false);
+    } else {
+      const element = document.getElementById(href.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+      setIsMenuOpen(false);
     }
-    setIsMenuOpen(false);
   };
 
   return (
